@@ -276,6 +276,7 @@ header nav ul li a:hover {
           justify-content: center;
 }
 .social {
+  transition: .2s;
   height: 70px;
   width: 70px;
   display: -webkit-flex;
@@ -294,27 +295,23 @@ header nav ul li a:hover {
 }
 .social:nth-child(1):hover {
   cursor: pointer;
-  transition: .2s;
   border: 2px solid #3b5998;
   background-color: #3b5998;
   color: #fff;
 }
 .social:nth-child(2):hover {
   cursor: pointer;
-  transition: .2s;
   border: 2px solid #00aced;
   background-color: #00aced;
   color: #fff;
 }
 .social:nth-child(3):hover {
   cursor: pointer;
-  transition: .2s;
   border: 2px solid #ea4c89;
   background-color: #ea4c89;
   color: #fff;
 }
 .social:nth-child(4):hover {
-  transition: .2s;
   border: 2px solid #D34836;
   background-color: #D34836;
   color: #fff;
