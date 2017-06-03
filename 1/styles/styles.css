@@ -20,6 +20,7 @@ header {
   background-image: url(../img/header-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
 }
 h3 {
   padding: 20px 0;
@@ -200,6 +201,7 @@ h3 span {
   background-image: url(../img/review-bg.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .owl-carousel {
   min-height: 460px;

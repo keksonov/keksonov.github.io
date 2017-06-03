@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	width: 1200px;
+	margin: 0 auto;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 35px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+a {
+	text-decoration: none;
+	color: #262626;
+}
+a:hover {
+	text-decoration: underline;
+}
