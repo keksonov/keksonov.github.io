@@ -6,5 +6,7 @@ $(document).ready(function () {
 
 	$('.fa-bars').on('click', function() {
 		$('.menu-for-mobile').toggleClass('active');
-	})
+	});
+
+	$('html').smoothScroll();
 })
