@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(document).ready(function()  {
   // slider 1
   $('.header-slider').owlCarousel({
     items: 1,
@@ -26,13 +26,20 @@ $(document).ready(() => {
 
   //slider nav button
 
-    let itemWidth = $('.owl-carousel').width();
+    var itemWidth = $('.owl-carousel').width();
     $('.owl-prev').css('margin-right', itemWidth - 164);
     $('.vip-item').height(this.width /2);
-    $(window).on('resize', () => {
+    $(window).on('resize', function() {
       $('.vip-item').height(this.width /2);
-      let itemWidth = $('.owl-carousel').width();
+      var itemWidth = $('.owl-carousel').width();
       $('.owl-prev').css('margin-right', itemWidth - 164);
     })
 
+    var width = $(window).width();
+    if (width <= 768) {
+      $('.nav').addClass('nav-mobile').removeClass('nav');
+    }
+    $('.menu-open').on('click', function() {
+      $('.nav-mobile').toggleClass('active');
+    })
 })
