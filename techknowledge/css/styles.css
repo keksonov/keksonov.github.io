@@ -136,9 +136,13 @@ body {
   display: -ms-flex;
   display: flex;
 }
-.footer .social li {
+.footer .social li { 
+  transition: .1s;
   list-style: none;
   margin: 0 5px;
+}
+.footer .social li:active {
+  transform: perspective(300px) rotateX(10deg);
 }
 .footer .copyright {
   font-size: 14px;
