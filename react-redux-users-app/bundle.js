@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "bb2e782e3d6980d34e2f"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "0d70407f1b4e24baa432"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -23803,10 +23803,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     { history: _reactRouter.browserHistory },
     _react2.default.createElement(
       _reactRouter.Route,
-      { path: '/', component: _App2.default },
+      { path: '/react-redux-users-app/', component: _App2.default },
       _react2.default.createElement(_reactRouter.IndexRoute, { component: _Main2.default }),
-      _react2.default.createElement(_reactRouter.Route, { path: '/users', component: _UsersList2.default }),
-      _react2.default.createElement(_reactRouter.Route, { path: '/users/:id', component: _UserCard2.default })
+      _react2.default.createElement(_reactRouter.Route, { path: '/react-redux-users-app/users', component: _UsersList2.default }),
+      _react2.default.createElement(_reactRouter.Route, { path: '/react-redux-users-app/users/:id', component: _UserCard2.default })
     )
   )
 ), document.getElementById('root'));
